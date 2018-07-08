@@ -15,8 +15,11 @@ namespace Web.Api
 {
     public class Startup
     {
+        private string _contentRootPath = "";
         public Startup(IHostingEnvironment env)
         {
+            _contentRootPath = env.ContentRootPath;
+
             var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
@@ -46,6 +49,11 @@ namespace Web.Api
             ConfigureAutoMapper(services);
 
             var dbConnection = Configuration.GetConnectionString("MyDBConnection");
+            if (dbConnection.Contains("%CONTENTROOTPATH%"))
+            {
+                dbConnection = dbConnection.Replace("%CONTENTROOTPATH%", _contentRootPath);
+            }
+
             services.AddDbContext<MyDbContext>(options => options.UseSqlServer(dbConnection));
 
             services.AddSingleton<IMyDbContextFactory, MyDbContextFactory>();

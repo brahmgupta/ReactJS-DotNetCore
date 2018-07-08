@@ -1,10 +1,8 @@
-import React, {PropTypes} from 'react';
-import { Link, IndexLink } from 'react-router';
-import LoadingDots from '../common/LoadingDots';
-import {connect} from 'react-redux';
+import React from 'react';
+import { IndexLink } from 'react-router';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-const Header = ({loading}) => {
+const Header = () => {
   return (
 
 <Navbar collapseOnSelect>
@@ -23,10 +21,6 @@ const Header = ({loading}) => {
   </Navbar.Collapse>
 </Navbar>
   );
-};
-
-Header.propTypes = {
-  loading: PropTypes.bool.isRequired
 };
 
 export default Header;
