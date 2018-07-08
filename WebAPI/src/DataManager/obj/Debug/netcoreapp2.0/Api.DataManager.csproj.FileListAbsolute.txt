@@ -1,0 +1,11 @@
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\bin\Debug\netcoreapp2.0\Api.DataManager.deps.json
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\bin\Debug\netcoreapp2.0\Api.DataManager.dll
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\obj\Debug\netcoreapp2.0\Api.DataManager.csprojResolveAssemblyReference.cache
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\obj\Debug\netcoreapp2.0\Api.DataManager.csproj.CoreCompileInputs.cache
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\obj\Debug\netcoreapp2.0\Api.DataManager.AssemblyInfoInputs.cache
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\obj\Debug\netcoreapp2.0\Api.DataManager.AssemblyInfo.cs
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\bin\Debug\netcoreapp2.0\Api.DataManager.runtimeconfig.json
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\bin\Debug\netcoreapp2.0\Api.DataManager.runtimeconfig.dev.json
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\bin\Debug\netcoreapp2.0\Api.DataManager.pdb
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\obj\Debug\netcoreapp2.0\Api.DataManager.dll
+D:\source\React\NSW.Health\Application\WebAPI\Api.DataManager\obj\Debug\netcoreapp2.0\Api.DataManager.pdb
